@@ -2,6 +2,7 @@ import React from 'react'
 import './Forms.css'
 import CampoTexto from '../CampoTexto';
 import Button from '../Button'
+import Checkbox from '../Checkbox';
 // import React { useState } from 'react';
 
 const Forms = () => {
@@ -21,7 +22,10 @@ const Forms = () => {
                 <CampoTexto
                 label='Email Adress'
             />
+            
+            <Checkbox label="I consent to being contatect by the team *"/>
             <Button>Submit</Button>
+            
             </form>
             
 

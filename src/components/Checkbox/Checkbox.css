@@ -1,0 +1,12 @@
+.checkbox{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.checkbox input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 15px;
+    
+  }
+  
+  
