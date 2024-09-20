@@ -17,7 +17,7 @@ const CampoTexto = (props) => {
         <label>
             {props.label}
         </label>
-        <input value={props.valor} onChange={aoDigitado} required={props.obrigatorio}/>
+        <input  type={props.tipo || 'text'} value={props.valor} onChange={aoDigitado} required={props.obrigatorio}/>
     </div>
 
     </div>

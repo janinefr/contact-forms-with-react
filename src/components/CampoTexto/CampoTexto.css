@@ -5,6 +5,7 @@
 }
 
 .campo-texto{
+    width: 90%;
     margin: 32px 0;
     display: inline-block;
     justify-content: space-between;
@@ -20,5 +21,8 @@
     width: 100%;
     box-sizing: border-box;
     border-radius: 5px;
-    padding: 8px;
+    padding: 10px;
 }
+
+
+
